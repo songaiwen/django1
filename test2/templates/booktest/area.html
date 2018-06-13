@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市区信息</title>
+</head>
+<body>
+<ul>
+    省：{{sheng.atitle}}
+    <hr>
+    市：{{city.atitle}}
+    <hr>
+    区：<ul>
+    {%for qu in qulist%}
+    <li>{{qu.atitle}}</li>
+    {%endfor%}
+
+</ul>
+
+
+
+</ul>
+</body>
+</html>
